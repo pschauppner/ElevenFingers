@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/keebio-components-master/keebio.lib")(options "")(descr ""))
+  (lib (name "ElevenFingers")(type "KiCad")(uri "${KIPRJMOD}/ElevenFingers.kicad_sym")(options "")(descr ""))
+  (lib (name "SofleKeyboard-cache")(type "Legacy")(uri "${KIPRJMOD}/Sofle_SymbolsAndFootprints/SofleKeyboard-cache.lib")(options "")(descr ""))
+)
