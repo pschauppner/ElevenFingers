@@ -1,6 +1,9 @@
 # ElevenFingers
 An ergonomic split keyboard
 
+## Notes/assumptions for this build
+Encoder will be swapped in software (vice having a reverse footprint)
+
 ## Issues and planned work
 - Bluetooth is tempermental with pull down resistors - no longer needed for my current setup - plan to remove
 - Source code has to get modified for flashing left half and right half - not great
