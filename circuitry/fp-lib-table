@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "SofleChoc")(type "KiCad")(uri "${KIPRJMOD}/Sofle_SymbolsAndFootprints/SofleChoc.pretty")(options "")(descr ""))
+  (lib (name "ElevenFingers")(type "KiCad")(uri "${KIPRJMOD}/ElevenFingers.pretty")(options "")(descr ""))
+  (lib (name "SofleRGB")(type "KiCad")(uri "/home/dad/code/elevenFingersProject/startingFromSofle/Sofle_RGB/PCB/SofleRGB.pretty")(options "")(descr ""))
 )
