@@ -52,10 +52,8 @@
   (fp_line (start -0.35 0) (end -0.35 0.55) (layer "F.Fab") (width 0.1) (tstamp f5baec4c-4cad-4901-9450-0e35ee699b1e))
   (fp_line (start -0.35 0) (end -0.35 -0.55) (layer "F.Fab") (width 0.1) (tstamp f6b70068-b7f3-44f1-99e4-04c023f24736))
   (fp_line (start -1.4 0.9) (end -1.4 -0.9) (layer "F.Fab") (width 0.1) (tstamp f8e08aca-79b5-458e-afd4-a0ebdea0ba94))
-  (pad "1" smd rect (at -1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ef08539-9b93-4911-92d0-33d6f1d06651))
-  (pad "1" smd rect (at -1.65 0) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp ee777203-fc77-48de-ba16-7216c5f4bd31))
-  (pad "2" smd rect (at 1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42ee12ce-fda5-42cb-9b3e-1d97835b6d4b))
-  (pad "2" smd rect (at 1.65 0) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d4ea780d-8edb-4feb-b6d3-7f09fd9def5c))
+  (pad "1" thru_hole rect (at -1.65 0) (size 0.9 1.2) (layers *.Cu *.Mask) (tstamp 4ef08539-9b93-4911-92d0-33d6f1d06651))
+  (pad "2" thru_hole rect (at 1.65 0) (size 0.9 1.2) (layers *.Cu *.Mask) (tstamp 42ee12ce-fda5-42cb-9b3e-1d97835b6d4b))
   (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
