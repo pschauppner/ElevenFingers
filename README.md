@@ -3,6 +3,7 @@ An ergonomic split keyboard
 
 ## Notes/assumptions for this build
 Encoder will be swapped in software (vice having a reverse footprint)
+Most components are flipped for right side, LEDs are flipped AND rotated 180 degrees so that routes with vias can be more direct
 
 ## Issues and planned work
 - Bluetooth is tempermental with pull down resistors - no longer needed for my current setup - plan to remove
