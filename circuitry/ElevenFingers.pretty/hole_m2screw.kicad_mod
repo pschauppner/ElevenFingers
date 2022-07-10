@@ -1,0 +1,18 @@
+(footprint "hole_m2screw" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 86d3a364-dd63-4a2b-b343-1c3337ba687a)
+  )
+  (fp_text value "hole_m2screw" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 12063c10-b8ba-4ca7-a9e4-e86fac43f8e7)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 64c40840-0aae-4800-87fd-7987c5dd08a3)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.1) (layers F&B.Cu *.Mask) (tstamp 7251bc66-9591-4f75-9f38-a02d75dbc743))
+)
