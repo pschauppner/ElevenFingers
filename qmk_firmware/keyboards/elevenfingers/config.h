@@ -20,6 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "config_common.h"
 
+#define ENCODERS_PAD_A {F6}
+#define ENCODERS_PAD_B {F5}
+#define ENCODERS_PAD_A_RIGHT {F5}
+#define ENCODERS_PAD_B_RIGHT {F6}
+
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x0007
@@ -34,14 +39,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ElevenFingers PCB default pin-out */
 #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6}
 #define MATRIX_COL_PINS { D4, C6, D7, E6, B4, B5}
-#define ENCODERS_PAD_A {F5}
-#define ENCODERS_PAD_B {F6}
+#define MATRIX_COL_PINS_RIGHT { B5, B4, E6, D7, C6, D4 }
+
 #define UNUSED_PINS
 
 /* ws2812 RGB LED */
-//#define RGB_DI_PIN F7
+#define RGB_DI_PIN D3
+#define DRIVER_LED_TOTAL 60    // Number of LEDs
+//#define RGBLED_SPLIT { 30, 30 }
+//#define RGBLIGHT_SPLIT
+#define RGB_MATRIX_SPLIT { 30, 30 }
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 120
+#define SPLIT_TRANSPORT_MIRROR
 
-//#define RGBLED_NUM 1    // Number of LEDs
+//#define ENABLE_RGB_MATRIX_SOLID_COLOR
+#define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -51,11 +64,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LEADER_TIMEOUT 500
 #define LEADER_PER_KEY_TIMING
 
-#define SPLIT_USB_DETECT
+//#define SPLIT_USB_DETECT
 #define MASTER_LEFT
+
 //for serial
 #define SOFT_SERIAL_PIN D2
 #define SELECT_SOFT_SERIAL_SPEED 5
+
 //for i2c
 //#define USE_I2C
 //#define RIGHT_HALF_INT_I2C_PULLUPS_OFF
